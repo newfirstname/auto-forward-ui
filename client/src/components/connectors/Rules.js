@@ -8,7 +8,7 @@ import { GlobalContext } from '../../context/GlobalState';
 const Rules = ({ rules, conId }) => {
   const { saveRules } = useContext(GlobalContext);
 
-  const [modalState, setModalState] = useState(true);
+  const [modalState, setModalState] = useState(false);
   const [decodedRules, setDecodedRules] = useState(decodeRules(rules));
 
   const openModal = () => {

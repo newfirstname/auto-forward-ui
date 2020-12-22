@@ -50,8 +50,6 @@ const Navbarq = () => {
             </Nav.Item>
             <Dropdown title="Insert">
               <Dropdown.Item onClick={onNewClick}>New connector</Dropdown.Item>
-              <Dropdown.Item>Team</Dropdown.Item>
-              <Dropdown.Item>Login</Dropdown.Item>
             </Dropdown>
           </Nav>
           <Nav pullRight>
