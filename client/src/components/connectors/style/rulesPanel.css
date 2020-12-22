@@ -1,0 +1,25 @@
+.rule-panel-item {
+  border: 1px solid #3c3f43;
+  padding: 7px;
+  border-radius: 7px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.rule-panel-item.active {
+  height: initial;
+}
+
+.rule-panel-item.deactive {
+  height: 40px;
+}
+
+.rule-panel-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.rule-panel-item-bottom {
+}

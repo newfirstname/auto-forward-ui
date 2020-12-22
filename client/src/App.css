@@ -1,0 +1,7 @@
+.rs-tag-group {
+  margin: 5px !important;
+}
+
+.rs-tag-group > .rs-tag {
+  margin: 5px !important;
+}
